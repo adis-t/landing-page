@@ -82,7 +82,7 @@ a,
 
 .image-placeholder{
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 1 100%;
     align-items: center;
 }
 
@@ -101,9 +101,8 @@ button{
     flex-direction: column;
     justify-content: space-between;
     gap: 30px;
-    padding: 30px 150px;
+    padding: 100px 150px;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .container{
@@ -111,6 +110,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .content-container{
@@ -132,9 +132,42 @@ button{
     height: 200px;
     border: solid #3882f6;
     border-radius: 10%;
+    overflow: hidden;
+}
+
+img.custom{
+    width: 200px;
+    height: 200px;
+    object-fit: none;
+    object-position: center center;
+}
+
+img.custom.two{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .quote-container{
     display: flex;
     background-color: #e5e7eb;
+    padding: 90px 150px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote{
+    font-family: "Hero New";
+    font-size: 36px;
+    font-style: italic;
+    justify-self: center;
+    align-self: center;
+    font-weight: 300;
+}
+
+.author{
+    font-family: "Hero New";
+    font-size: 24px ;
+    align-self: flex-end;
+    font-weight: 700;
 }
