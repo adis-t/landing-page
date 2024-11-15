@@ -143,8 +143,14 @@ img.custom{
 }
 
 img.custom.two{
-    width: 200px;
-    height: 200px;
+        object-fit: cover;
+}
+
+img.custom.three{
+    object-fit: cover;
+}
+
+img.custom.four{
     object-fit: cover;
 }
 
@@ -171,3 +177,40 @@ img.custom.two{
     align-self: flex-end;
     font-weight: 700;
 }
+
+.interactive-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+ .inner-container{
+    display: flex;
+    background-color: #3882f6;
+    border: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    gap: 100px;
+ }
+
+ .right-side{
+    display: flex;
+    flex-direction: column;
+ }
+
+ button.second{
+    border-color: antiquewhite;
+ }
+
+ .call{
+    color: antiquewhite;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+ }
+
+ .call-two{
+    color: antiquewhite;
+    font-family: "Roboto";
+    font-size: 18px;
+ }
