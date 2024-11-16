@@ -214,3 +214,16 @@ img.custom.four{
     font-family: "Roboto";
     font-size: 18px;
  }
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px 150px;
+ }
+
+ .copyright{
+    color: #e5e7eb;
+    font-family: "Roboto";
+ }
